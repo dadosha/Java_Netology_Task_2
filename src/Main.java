@@ -1,15 +1,10 @@
-import java.util.Locale;
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        sc.useLocale(Locale.US);
 
-        System.out.println("Ввести начальный баланс (целое число): ");
-        int startBalance = sc.nextInt();
-        System.out.println("Ввести сумму пополнения (целое число): ");
-        int topUpAmount = sc.nextInt();
+        System.out.println("Начальный баланс");
+        int startBalance = 100;
+        System.out.println("Сумма пополнения");
+        int topUpAmount = 1100;
         int startBonusAmount = 1000;
         System.out.println("Сумма с которой начисляются бонусы - " + startBonusAmount);
         int bonusAmount = 1;
