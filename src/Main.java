@@ -15,8 +15,7 @@ public class Main {
         if (topUpAmount >= startBonusAmount) {
             nowBalance = nowBalance + (topUpAmount / oneBonusNeedAmount) * bonusAmount;
             System.out.println("Баланс после пополнения с бонусами - " + nowBalance);
-        }
-        else {
+        } else {
             System.out.println("Баланс после пополнения - " + nowBalance);
         }
     }
